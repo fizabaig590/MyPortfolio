@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiza's Portfolio</title>
+  <link rel="icon" type="icon" href="red.png">
+  <style>
+  	body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #400000;
+    }
+    h3 {
+      text-align: center;
+      color: white;
+      font-family: 'Helvetica', serif;
+      font-size: 20px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 2px solid black;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    .center-content {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      height: 100vh;
+    }
+    .back-button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .back-button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-content">
+    <h3>All my projects will be sooner available!</h3>
+    <button class="back-button" onclick="goBack()">Back to main page</button>
+  </div>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>  
+</html>
